@@ -182,6 +182,11 @@
             bindings = <&kp TAB>;
             key-positions = <14 15>;
         };
+
+        shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <15 16>;
+        };
     };
 
     keymap {
